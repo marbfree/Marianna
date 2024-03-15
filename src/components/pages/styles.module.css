@@ -1,0 +1,19 @@
+.background {
+    /* background-image: url("../../images/OceanCalm.avif"); */
+    background-color: rgb(91, 238, 245);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1 {
+    color: #084961;
+}
+
+.fadeInHello {
+    animation: fade 2s ease-in;
+  }

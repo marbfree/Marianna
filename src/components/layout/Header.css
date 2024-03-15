@@ -1,0 +1,15 @@
+.nav-link {
+    color: #084961;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+.nav-tabs {
+    border: none;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
