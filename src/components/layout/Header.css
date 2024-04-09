@@ -1,5 +1,5 @@
 .nav-link {
-    color: #084961;
+    color: #143b02;
     font-weight: bold;
     text-decoration: none;
   }
@@ -11,5 +11,15 @@
 ul {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 200px;
+    animation: fade 1s ease-in;
+    letter-spacing: .5rem;
 }
+
+a {
+  color: rgb(246, 3, 173)
+}
+
+
