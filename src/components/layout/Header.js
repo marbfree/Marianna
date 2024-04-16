@@ -4,30 +4,39 @@ import "../layout/Header.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+        <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#music"
+          onClick={() => handlePageChange("Music")}
+          className={currentPage === "Music" ? "nav-link active" : "nav-link"}
         >
           Music
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#bio"
-          onClick={() => handlePageChange("Bio")}
-          className={currentPage === "Bio" ? "nav-link active" : "nav-link"}
+          href="#yoga"
+          onClick={() => handlePageChange("Yoga")}
+          className={currentPage === "Yoga" ? "nav-link active" : "nav-link"}
         >
           Yoga & Meditation
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#projects"
-          onClick={() => handlePageChange("Projects")}
+          href="#travel"
+          onClick={() => handlePageChange("Travel")}
           className={
-            currentPage === "Projects" ? "nav-link active" : "nav-link"
+            currentPage === "Travel" ? "nav-link active" : "nav-link"
           }
         >
           Travel

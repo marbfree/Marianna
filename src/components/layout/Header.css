@@ -1,11 +1,13 @@
 .nav-link {
-    color: #143b02;
+    color: rgb(246, 3, 173);
     font-weight: bold;
     text-decoration: none;
   }
   
 .nav-tabs {
     border: none;
+    background-color: rgb(3, 75, 75);
+    padding-bottom: 50px;
   }
 
 ul {
@@ -13,7 +15,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 200px;
+    padding-top: 50px;
     animation: fade 1s ease-in;
     letter-spacing: .5rem;
 }
