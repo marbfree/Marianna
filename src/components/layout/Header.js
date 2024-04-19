@@ -3,8 +3,8 @@ import "../layout/Header.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-        <li className="nav-item">
+    <ul className="nav-tabs">
+        <li>
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#music"
           onClick={() => handlePageChange("Music")}
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Music
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#yoga"
           onClick={() => handlePageChange("Yoga")}
@@ -31,13 +31,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           Yoga & Meditation
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#travel"
           onClick={() => handlePageChange("Travel")}
-          className={
-            currentPage === "Travel" ? "nav-link active" : "nav-link"
-          }
+          className={currentPage === "Travel" ? "nav-link active" : "nav-link"}
         >
           Travel
         </a>

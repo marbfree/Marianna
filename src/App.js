@@ -3,8 +3,8 @@ import Container from './components/layout/container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <Container />
       </header>
     </div>
