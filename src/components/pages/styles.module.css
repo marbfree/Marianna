@@ -22,9 +22,19 @@ h1 {
     justify-content: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3rem;
-    font-size: 3rem;
+    font-size: 6rem;
     padding-top: 300px;
  }
+
+h2 {
+  color: rgb(246, 3, 173);
+  display: flex;
+  justify-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2rem;
+  font-size: 3rem;
+  padding-top: 50px;
+}
 
 .fadeInHello {
     animation: fadeIn 5s;
