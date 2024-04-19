@@ -5,7 +5,9 @@ const Home = () => {
     return (
         <div>
         <header className={styles.background}>
-        <h1 className={styles.fadeInHello}>Marianna</h1> 
+        <div className={styles.fadeInHello}>
+            <h1>Marianna</h1> 
+        </div>
         </header>
         </div>
     )
