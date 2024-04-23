@@ -9,7 +9,7 @@
 }
 
 .background {
-    /* background-image: url("../images/B5FF2286-33AA-4D9F-9C5D-1C19F1376DFC_1_201_a.jpeg"); */
+    background-image: url("../images/4FBEA00C-2EEA-44BE-B5E7-CFDAD1D4449A_1_102_o.jpeg");
     background-color: rgb(91, 238, 245);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3rem;
     font-size: 6rem;
-    padding-top: 300px;
+    padding-top: 100px;
  }
 
 h2 {
