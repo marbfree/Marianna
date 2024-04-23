@@ -16,6 +16,13 @@
     min-height: 100vh;
     }
 
+.backgroundYoga {
+    background-image: url("../images/E43BA85A-7496-4FBC-8C06-1B0DB9F31464_1_102_o.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 h1 {
     color: rgb(246, 3, 173);
     display: flex;
@@ -23,7 +30,7 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3rem;
     font-size: 6rem;
-    padding-top: 100px;
+    padding-top: 75px;
  }
 
 h2 {
