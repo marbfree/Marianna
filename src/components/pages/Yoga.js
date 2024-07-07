@@ -11,7 +11,6 @@ export default function Yoga() {
     return (
         <div className={styles.backgroundYoga}>
             <h2 className={styles.fadeInHello}>Yoga and Meditation</h2>
-            <nav>
                 <div className={styles.hamMenu} onClick={toggleMenu}>
                     <span></span>
                     <span></span>
@@ -23,7 +22,6 @@ export default function Yoga() {
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
         </div>
     );
 }
