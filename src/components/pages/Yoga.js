@@ -18,9 +18,9 @@ export default function Yoga() {
                 </div>
                 <ul className={`${styles.offScreenMenu} ${isActive ? styles.active : ''}`}>
                     <li><a href="#">Yoga Videos</a></li>
-                    <li><a href="#">Meditation Videos</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li className={styles.list}><a href="#">Meditation Videos</a></li>
+                    <li className={styles.list}><a href="#">Gallery</a></li>
+                    <li className={styles.list}><a href="#">Contact</a></li>
                 </ul>
         </div>
     );

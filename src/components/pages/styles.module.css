@@ -16,11 +16,28 @@
     min-height: 100vh;
     }
 
+.backgroundColor {
+  background-color: rgb(3, 75, 75);
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .backgroundYoga {
     background-image: url("../images/E43BA85A-7496-4FBC-8C06-1B0DB9F31464_1_102_o.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.backgroundMusic {
+  background-color: rgb(91, 238, 245);
 }
 
 .hamMenu {
@@ -116,9 +133,21 @@ h2 {
   padding-top: 50px;
 }
 
+.list {
+  padding-top: 20px;
+}
+
 .fadeInHello {
     animation: fadeIn 5s;
   }
+
+p {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
 
 @keyframes fadeIn {
     0% { opacity: 0; }

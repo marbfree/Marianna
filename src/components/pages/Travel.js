@@ -5,7 +5,7 @@ export default function Travel() {
     return (
         <body>
             <div className={styles.background}>
-                <h2 className={styles.fadeInHello}>Travel</h2>
+                <h1 className={styles.fadeInHello}>Travel</h1>
             </div>
         </body>
     )
